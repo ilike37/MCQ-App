@@ -1,5 +1,3 @@
-#C:\Users\DHARSHAN\Desktop\CODing
-#python -m streamlit run mcq_better.py
 import streamlit as st
 import streamlit.components.v1 as components
 import pdfplumber
