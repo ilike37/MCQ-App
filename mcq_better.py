@@ -465,6 +465,11 @@ with st.sidebar:
 if not st.session_state.qp_path and not st.session_state.qp_bytes:
     st.markdown('<div class="big-title">Cambridge MCQ Practice</div>', unsafe_allow_html=True)
     st.info("Select a paper from the sidebar and click Load Paper to begin.")
+    st.info("Created by: Dharshan Balu\nCo-Creators: Adhvik Sunil")
+    st.warning(
+        "This app is still under development! Selecting anything other than MCQ components will cause errors. "
+        "For the full user manual, visit the GitHub file."
+    )
     st.stop()
 
 elapsed = int(time.time() - st.session_state.start_time)
